@@ -181,3 +181,18 @@ nav a:focus {
     font-size: 1.08rem;
     flex: 1 1 220px;
 }
+
+a {
+  text-decoration: none; /* remove underline */
+}
+
+a img {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px; /* spacing between icons */
+  align-items: center;
+}
