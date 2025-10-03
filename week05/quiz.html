@@ -4,30 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML and CSS Quiz</title>
+    <title>Basic HTML and CSS Quiz</title>
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
 
 <body>
-    <h1>HTML and CSS Quiz</h1>
+    <h1>✅ Basic HTML and CSS Quiz</h1>
 
     <form>
-        <label for="q1">1. Fill in the blank: The HTML tag to create a paragraph is &lt;___&gt;</label>
+        <label for="q1"><strong>1.</strong> What does the acronym CSS stand for?</label>
         <input type="text" id="q1" name="q1" required>
 
-        <label for="q2">2. Explain in your own words what CSS is and what it is used for:</label>
-        <textarea id="q2" name="q2" rows="5" required></textarea>
+        <label for="q2"><strong>2.</strong> How are id and class attributes selected in CSS?</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
 
-        <label for="q3">3. Which CSS property is used to change the text color?</label>
+        <label for="q3"><strong>3.</strong> Which of the following is a valid CSS comment?</label>
         <select id="q3" name="q3" required>
-            <option value="" selected disabled>Choose One...</option>
-            <option value="color">color</option>
-            <option value="text-color">text-color</option>
-            <option value="font-color">font-color</option>
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="option1">/* This is a comment */</option>
+            <option value="option2">// This is a comment</option>
+            <option value="option3">&lt;!-- This is a comment --&gt;</option>
         </select>
 
-        <label for="q4">4. How many heading levels exist in HTML? (1-10)</label>
-        <input type="number" id="q4" name="q4" min="1" max="10" required>
+        <label for="q4"><strong>4.</strong> What is the bottom margin given this declaration?</label>
+        <div class="code-block">margin: 10px 5px 15px;</div>
+        <input type="text" id="q4" name="q4" required>
 
         <button type="submit">Submit Quiz</button>
     </form>
