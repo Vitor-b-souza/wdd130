@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for your next rafting adventure">
+    <meta name="author" content="Your Name">
+    <title>Contact Us - Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Company Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Purpose of Message*</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="purpose" value="general" required>
+                            General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="reservation" required>
+                            Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="suggestion" required>
+                            Website Suggestion
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="subscribe" value="yes">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="company-info">
+            <div class="info-grid">
+                <div class="info-item">
+                    <h3>Address</h3>
+                    <p>123 Rapids Road<br>
+                        River City, RC 12345<br>
+                        United States</p>
+                </div>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p>(555) 123-4567</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p>info@raftingadventures.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3592.4533509084654!2d-111.89465391137998!3d40.770602183975285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1759591640863!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-grid">
+                <div class="employee-card">
+                    <img src="" alt="John Smith">
+                    <h3>John Smith</h3>
+                    <p>Lead Guide</p>
+                </div>
+                <div class="employee-card">
+                    <img src="" alt="Sarah Hale">
+                    <h3>Sarah Hale</h3>
+                    <p>Safety Officer</p>
+                </div>
+                <div class="employee-card">
+                    <img src="" alt="Mike Whitmer">
+                    <h3>Mike Whitmer</h3>
+                    <p>Senior Guide</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 White Water Rafting Co. | Vitor Souza</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.svg" alt="Facebook">
+            </a>
+            <a href="https://LinkedIn.com">
+                <img src="images/linkedin-icon.svg" alt="LinkedIn">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-icon.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
