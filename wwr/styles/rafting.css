@@ -13,6 +13,17 @@
     box-sizing: border-box;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
@@ -110,7 +121,7 @@ nav a:hover {
     filter: brightness(1);
 }
 
-/* Newsletter Section */
+
 .newsletter {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     padding: 3rem 2rem;
@@ -175,7 +186,7 @@ nav a:hover {
     background-color: #e38e4a;
 }
 
-/* CTA Section */
+
 .cta-section {
     padding: 4rem 2rem;
     background-color: var(--light-bg);
@@ -239,7 +250,7 @@ nav a:hover {
     background-color: #e38e4a;
 }
 
-/* Home Info Section */
+
 .home-info {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -467,7 +478,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* History Section */
+
 .history {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -499,7 +510,7 @@ nav a:hover {
     line-height: 1.8;
 }
 
-/* Adventure Section */
+
 .adventure {
     background-color: var(--light-bg);
     padding: 4rem 2rem;
@@ -575,7 +586,7 @@ footer {
     opacity: 0.7;
 }
 
-/* Contact Form */
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -741,7 +752,7 @@ button[type="submit"]:hover {
     font-size: 0.9rem;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -816,10 +827,9 @@ button[type="submit"]:hover {
     .trips-table td {
         padding: 0.5rem;
     }
-}0, 0, 0.1);
 }
 
-/* Home Gallery Section */
+
 .home-gallery {
     background-color: var(--light-bg);
     padding: 4rem 2rem;
@@ -860,7 +870,7 @@ button[type="submit"]:hover {
     color: #666;
 }
 
-/* Trips Page */
+
 .trips-hero {
     position: relative;
     width: 100%;
@@ -907,7 +917,7 @@ button[type="submit"]:hover {
     line-height: 1.8;
 }
 
-/* Trips Table Section */
+
 .trips-table-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -980,3 +990,4 @@ button[type="submit"]:hover {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
