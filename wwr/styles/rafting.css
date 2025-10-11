@@ -478,7 +478,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-
 .history {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -514,6 +513,7 @@ nav a:hover {
 .adventure {
     background-color: var(--light-bg);
     padding: 4rem 2rem;
+    text-align: center;
 }
 
 .adventure h2 {
@@ -521,7 +521,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .adventure-grid {
@@ -990,4 +990,4 @@ button[type="submit"]:hover {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+}
